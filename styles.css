@@ -9,15 +9,11 @@ h1 {
     font-size: 60px;
 	text-align: center;
 	margin: auto;
+	text-decoration:overline
+		
 		
 }
 
-#intro {
-	text-align: center;
-	color: antiquewhite;
-
-   		
-}
 
 #tasto1 {
 	background-color: antiquewhite;
@@ -42,7 +38,20 @@ h1 {
 }
 
 
+.testo1 {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	 
+	
+}
 
+#tasto1:hover .testo1 {
+	
+visibility: visible
+}
 
 
 #tasto2 {
