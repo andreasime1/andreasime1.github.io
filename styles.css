@@ -1,9 +1,73 @@
 body {
-    background-color: powderblue;
+  background-image: url(https://images.unsplash.com/photo-1521108574125-f729ba6a4c03?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2e84c02ea82af7b9da81f1a380a4ea2&auto=format&fit=crop&w=2134&q=80);
+color: white
+
+
 }
 h1 {
-    color: blue;
+    color:antiquewhite;
+    font-size: 60px;
+	text-align: center;
+	margin: auto;
+		
 }
-p {
-    color: red;
+
+#intro {
+	text-align: center;
+	color: antiquewhite;
+
+   		
+}
+
+#tasto1 {
+	background-color: antiquewhite;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	text-align:center;
+	margin: auto;
+    vertical-align: middle;
+	line-height: 100px;
+	color:#080A21;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    transition: width 1s, height 1s;
+	
+			
+	
+}
+
+#tasto1:hover {
+    width: 600px;
+	height: 400px;
+}
+
+
+
+
+
+#tasto2 {
+	background-color: antiquewhite;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	text-align:center;
+	margin: auto;
+    vertical-align: middle;
+	line-height: 100px;
+	color:#080A21;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	transition: width 1s, height 1s;
+	
+}
+
+#tasto2:hover {
+    width: 600px;
+	height: 400px;
+}
+
+.spazio {
+	height: 30px
+}
+.spazioin {
+	height: 100px
 }
