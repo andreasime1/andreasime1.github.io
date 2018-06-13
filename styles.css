@@ -27,6 +27,7 @@ h1 {
 	color:#080A21;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     transition: width 1s, height 1s;
+	position: 
 	
 			
 	
@@ -74,9 +75,96 @@ visibility: visible
 	height: 400px;
 }
 
+.spinnerlink {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+}
+.colonnelink {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+}		
+		
+#tasto2:hover .spinnerlink {
+	
+visibility: visible
+}
+
+#tasto2:hover .colonnelink {
+	
+visibility: visible
+}
+
+
+
+
+
+
 .spazio {
 	height: 30px
 }
 .spazioin {
 	height: 100px
 }
+
+
+
+
+#portfolio {
+	background-color: antiquewhite;
+	width: 110px;
+	height: 110px;
+	border-radius: 100px;
+	text-align:center;
+	margin: auto;
+    vertical-align: middle;
+	line-height: 100px;
+	color:#080A21;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	transition: width 1s, height 1s;
+	
+	
+	
+	
+}
+
+#portfolio:hover {
+    width: 600px;
+	height: 400px;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  background-color: antiquewhite;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
