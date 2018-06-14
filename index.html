@@ -3,12 +3,11 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+	<script src="java.js"></script>
 </head>
 <body>
-<h1>
-Stelle
-	</h1>
-	<div class="spazioin"></div>	
+<h1> Stelle </h1>
+<div class="spazioin"></div>	
 <div id="tasto1"> CHI SONO
 	<p class="testo1">Nome: Andrea Simeone<br>20yo <br> Milano, Italia<br> Design della Comunicazione C3<br> 893314 <br></p>
 	
@@ -27,7 +26,115 @@ Stelle
 <div class="spazio"></div>
 	
 
-<div id="portfolio">PORTFOLIO</div>
+<div id="portfolio">PORTFOLIO
+
+<p class="introportfolio">Riportarti alcuni dei progetti a cui ho lavorato nel corso dell'anno accademico, all'interno o all'esterno dell'ateneo: </p>
+	
+	
+	
+	</div>
+	
+	
+<div class="spazio"></div>		
+	
+</head>
+<body>
+
+<img id="myImg" src="IMG_20180613_131133.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<img id="myImg" src="IMG_20180613_131137.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+	
+<img id="myImg" src="IMG_20180613_131329.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+<img src="DSC_0012.JPG" alt="Snow" class="900" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+	<img id="myImg" src="DSC_0015.JPG" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<img id="myImg" src="DSC_0024.JPG" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+<img id="myImg" src="DSC_0042.JPG" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+	<img id="myImg" src="DSC_0081.JPG" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+	
+	
+	
+	
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
 	
 	
 	
