@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+body {
+	font-family: source-sans-pro;
+	background-color: black;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
+#logocentrale{
+	
+top:40%;
+right:50%;
+	
+}
+
+@keyframes pulsa {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+.pulsazione {
+    animation-name: pulsa;
+    animation-duration: 2000ms;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

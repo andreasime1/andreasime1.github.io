@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+width: 100vw;
+	height: 100vh;
+	background-color: #111111;
+	margin: 0
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+
+
+h1 {
+    color:white;
+    font-size: 60px;
+	text-align: center;
+	margin-top: -250px;
+	text-decoration:overline;
+	font-family:  Helvetica, Arial, "sans-serif";
+	position: absolute;
+		
+}
+
+h2{
+	
+color: white;
+	font-size: 40px;
+text-align: center;
+	margin-top: 100px;
+	font-family: Helvetica;
+	text-decoration: overline;
+	
+		
+}
+
+#titolo{
+	width: 80%;
+	height: 100px;
+	margin-left: 8%;
+	margin-top: 0.5%;
+	position: absolute;
+	text-align-last: left;
+
+}
+
+#Chisono{
+width: 100%;
+	height: 400px;
+	position: absolute;
+	top:30%;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+	
+
+#presentazione{
+	
+	color: white;
+	font-family:  Helvetica;
+	position: absolute;
+	left: 30%;
+	font-size: 30px;
+	text-align-last: center;
+	font-weight: bold;
+
+}
+
+#fotoa{
+ 
+    max-width: 500px; 
+    max-height: 700px;
+border-radius: 20%;
+	margin-left: 10px;
+	margin-top: -150px;
+	position: absolute;
+}
+
+#logopiccolo{
+	
+	max-width: 500px; 
+    max-height: 300px;
+	border-radius: 50%;
+left: -9%;
+	top: -40%;
+	position: relative;
+
+	
+	
+}
+
+#header{
+width: 100wh;
+	height: 150px;
+	border-bottom:double;
+	border-bottom-color: aliceblue;
+	
+	border-bottom-width: thick;
+
+}
+	
+#spazio{
+	height: 800px;
+}
+
+#progettititolo{
+	text-align: right;
+	font-size: 40px;
+	text-decoration: none;
+	position: absolute;
+}
+
+.t{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	text-align:center;
+	margin: auto;
+    vertical-align: middle;
+	line-height: 100px;
+	font-family:  Helvetica;
+	transition: width 1s, height 1s;
+	position: relative;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+
+#tasto1{
+ 
+position: absolute;
+	margin-left: 250px;
+	margin-top: -100px;
+
+}
+
+#tasto2{
+position: absolute;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+#tasto3 {
+position: absolute;
+	margin-left: 250px;	
+	margin-top: 300px;
+}
+
+#tasto4{
+position: absolute;
+	margin-left: 250px;
+	margin-top: 500px;
+}
+
+#tasto1:hover{
+	width: 600px;
+	height:200px;
+}
+
+
+#tasto1:hover .descr1{
+	visibility: visible;
+}
+
+.descr1 {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	 
+	
+}
+
+#tasto2:hover{
+	width: 600px;
+	height:200px;
+}
+
+
+.dmele{
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 25px;
+		
+}
+
+
+.rot{
+	transform: rotate(-180deg)
+}
+
+.rot2{
+	transform: rotate(270deg);
+}
+
+.rot3{
+	transform: rotate(-90deg);
+}
+
+
+#tasto2:hover .descr2{
+	visibility: visible;
+}
+
+.descr2 {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	 
+	
+}
+
+.s1{
+	left: 25%;
+	position: absolute;
+}
+
+.s4{
+	left: 100%;
+	position: absolute;
+
+}
+.s3{
+	left: 75%;
+		position: absolute;
+}
+
+.s2{
+	left: 50%;
+	position: absolute;
+}
+
+.descr3{
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	
+	
+}
+
+#tasto3:hover .descr3{
+	visibility: visible;
+}
+
+#tasto4:hover .descr4{
+	visibility: visible;
+}
+
+.descr4{
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	
+	
+}
+
+#tasto3:hover{
+	width: 600px;
+	height:200px;
+}
+#tasto4:hover{
+	width: 600px;
+	height:200px;
+}
+
+#progetti{
+	margin-left: 300px;
+	margin-top: 100px;
+	
+}
+
+#tasto5{
+position: absolute;
+	margin-left: 900px;
+	margin-top: 150px;
+	width: 300px;
+	
+}
+
+.descr5 {
+	position:relative;
+     bottom:30px;
+     left:0px;
+     visibility: hidden;
+	line-height: 50px
+	 
+	
+}
+
+#tasto5:hover .descr5{
+	visibility: visible;
+}
+
+#tasto5:hover{
+	width: 600px;
+	height:200px;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  background-color: hotpink;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.i{
+	max-width: 400px;
+	margin-left: 150%;
+
+}
+
+#melebox{
+	margin-left: 150px;
+}
+
