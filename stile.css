@@ -5,7 +5,8 @@ body {
 width: 100vw;
 	height: 100vh;
 	background-color: #111111;
-	margin: 0
+	margin: 0;
+	display: block;
 }
 
 @-webkit-keyframes Gradient {
@@ -52,11 +53,12 @@ h1 {
     color:white;
     font-size: 60px;
 	text-align: center;
-	margin-top: -250px;
+	margin-top: 20px;
+	margin-left: 25px;
 	text-decoration:overline;
 	font-family:  Helvetica, Arial, "sans-serif";
 	position: absolute;
-		
+	display: block;
 }
 
 h2{
@@ -64,21 +66,22 @@ h2{
 color: white;
 	font-size: 40px;
 text-align: center;
-	margin-top: 100px;
+	margin-top: 2%;
 	font-family: Helvetica;
 	text-decoration: overline;
-	
+	position: absolute;
+	display: block;
 		
 }
 
 #titolo{
-	width: 80%;
+	width: 0;
 	height: 100px;
 	margin-left: 8%;
-	margin-top: 0.5%;
+	margin-top: 10%;
 	position: absolute;
 	text-align-last: left;
-
+display: block;
 }
 
 #Chisono{
@@ -92,6 +95,7 @@ width: 100%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	display: block;
 }
 
 	
@@ -101,10 +105,14 @@ width: 100%;
 	color: white;
 	font-family:  Helvetica;
 	position: absolute;
-	left: 30%;
-	font-size: 30px;
-	text-align-last: center;
+	left: 29%;
+	top: 25%;
+	font-size: 25px;
+	text-align-last: left;
 	font-weight: bold;
+	display: block;
+
+
 
 }
 
@@ -114,8 +122,10 @@ width: 100%;
     max-height: 700px;
 border-radius: 20%;
 	margin-left: 10px;
-	margin-top: -150px;
+	margin-top: 30px;
 	position: absolute;
+	display: block;
+	overflow: hidden;
 }
 
 #logopiccolo{
@@ -124,25 +134,25 @@ border-radius: 20%;
     max-height: 300px;
 	border-radius: 50%;
 left: -9%;
-	top: -40%;
-	position: relative;
-
-	
+	top: -8%;
+	position: absolute;
+margin: 0 auto;
+	display: block;
+	position:static;
 	
 }
 
 #header{
-width: 100wh;
-	height: 150px;
-	border-bottom:double;
+width: 100%;
+	height: 130px;
 	border-bottom-color: aliceblue;
-	
 	border-bottom-width: thick;
-
+display: block;
 }
 	
 #spazio{
 	height: 800px;
+	display: block;
 }
 
 #progettititolo{
@@ -150,6 +160,8 @@ width: 100wh;
 	font-size: 40px;
 	text-decoration: none;
 	position: absolute;
+	display: block;
+	top:74%;
 }
 
 .t{
@@ -157,12 +169,11 @@ width: 100wh;
 	height: 150px;
 	border-radius: 100px;
 	text-align:center;
-	margin: auto;
     vertical-align: middle;
 	line-height: 100px;
 	font-family:  Helvetica;
 	transition: width 1s, height 1s;
-	position: relative;
+	position: absolute;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -171,33 +182,39 @@ width: 100wh;
 	animation: Gradient 15s ease infinite;
 	font-size: 20px;
 	font-weight: bold;
-	
+	display: block;
+	overflow: hidden;
 	
 }
 
 #tasto1{
  
 position: absolute;
-	margin-left: 250px;
-	margin-top: -100px;
+	margin-left: 30%;
+	margin-top: -10%;
+	display: block;
 
 }
 
 #tasto2{
 position: absolute;
-	margin-left: 250px;
-	margin-top: 100px;
+	margin-left: 30%;
+	margin-top: 1%;
+	display: block;
 }
 #tasto3 {
 position: absolute;
-	margin-left: 250px;	
-	margin-top: 300px;
+	margin-left: 30%;	
+	margin-top: 11%;
+	display: block;
 }
 
 #tasto4{
 position: absolute;
-	margin-left: 250px;
-	margin-top: 500px;
+	margin-left: 30%;
+	margin-top: 21%;
+	display: block;
+	
 }
 
 #tasto1:hover{
@@ -323,13 +340,15 @@ position: absolute;
 	margin-left: 300px;
 	margin-top: 100px;
 	
+	
 }
 
 #tasto5{
 position: absolute;
-	margin-left: 900px;
-	margin-top: 150px;
+	left: 10%;
+	top: 120%;
 	width: 300px;
+	margin: auto;
 	
 }
 
@@ -389,7 +408,7 @@ row {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 25%;
@@ -401,7 +420,7 @@ row {
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -409,7 +428,7 @@ row {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -426,4 +445,56 @@ row {
 #melebox{
 	margin-left: 150px;
 }
+
+.t1{
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	text-align:center;
+	margin: auto;
+    vertical-align: middle;
+	line-height: 100px;
+	font-family:  Helvetica;
+	transition: width 1s, height 1s;
+	position: absolute;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	font-size: 20px;
+	font-weight: bold;
+	position: static;
+
+}
+
+#tasti1{
+	left:10%;
+	top: 90%;
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
+#tasti2{
+	left:40%;
+	top: 92%;
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
+#tasti3{
+	left:70%;
+	top: 145%;
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
+
+
+
+
 
