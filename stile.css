@@ -105,7 +105,7 @@ width: 100%;
 	color: white;
 	font-family:  Helvetica;
 	position: absolute;
-	left: 29%;
+	left: 530px;
 	top: 25%;
 	font-size: 25px;
 	text-align-last: left;
@@ -161,7 +161,7 @@ display: block;
 	text-decoration: none;
 	position: absolute;
 	display: block;
-	top:74%;
+	top:700px;
 }
 
 .t{
@@ -190,29 +190,29 @@ display: block;
 #tasto1{
  
 position: absolute;
-	margin-left: 30%;
-	margin-top: -10%;
+	margin-left: 550px;
+	margin-top: -100px;
 	display: block;
 
 }
 
 #tasto2{
 position: absolute;
-	margin-left: 30%;
-	margin-top: 1%;
+	margin-left: 550px;
+	margin-top: 100px;
 	display: block;
 }
 #tasto3 {
 position: absolute;
-	margin-left: 30%;	
-	margin-top: 11%;
+	margin-left: 550px;	
+	margin-top: 300px;
 	display: block;
 }
 
 #tasto4{
 position: absolute;
-	margin-left: 30%;
-	margin-top: 21%;
+	margin-left: 550px;
+	margin-top: 500px;
 	display: block;
 	
 }
@@ -338,15 +338,15 @@ position: absolute;
 
 #progetti{
 	margin-left: 300px;
-	margin-top: 100px;
+	margin-top: 90px;
 	
 	
 }
 
 #tasto5{
 position: absolute;
-	left: 10%;
-	top: 120%;
+	left: 150px;
+	top: 1000px;
 	width: 300px;
 	margin: auto;
 	
@@ -443,7 +443,7 @@ row {
 }
 
 #melebox{
-	margin-left: 150px;
+	margin-left: 250px;
 }
 
 .t1{
